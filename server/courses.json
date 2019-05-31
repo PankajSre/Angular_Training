@@ -1,0 +1,25 @@
+{
+  "courses": [
+    {
+      "id": 101,
+      "courseName": "Angular 7",
+      "courseDuration": "3 Months",
+      "courseEligibility": "Graduate with CSE",
+      "courseFee": 15000
+    },
+    {
+      "id": 102,
+      "courseName": "Python Programming",
+      "courseDuration": "3 Months",
+      "courseEligibility": "Under Graduate",
+      "courseFee": "10000"
+    },
+    {
+      "id": 103,
+      "courseName": "Java Programming",
+      "courseDuration": "4 Months",
+      "courseEligibility": "Intermediate",
+      "courseFee": "10500"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<hr>
+<p> My Birthday is : {{birthday | date: 'dd-MM-yyyy hh:mm:ss'}}</p>
+<p> Current Date and Time : {{currentDate | date: 'dd-MM-yyyy hh:mm:ss'}}</p>
+<p> My Birthday is(in Upple case) : {{birthday | date: 'full' | titlecase}}</p>
+<p> Slice Filter : {{message | slice:5}}</p>
+<p> JSON Data : {{languages | json}}</p>
+
+<div>
+<h2>Power Booster</h2>
+    <p>Super power boost: {{2 | exponentialStrength: 10}}</p>
+</div>
+
+<div>
+ <h2>Power Boost Calculator</h2>
+    <div>Normal power: <input [(ngModel)]="power"></div>
+    <div>Boost factor: <input [(ngModel)]="factor"></div>
+    <p>
+      Super Hero Power: {{power | exponentialStrength: factor}}
+    </p>
+</div>

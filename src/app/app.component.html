@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+  <a routerLink="/">Home</a> |
+  <a [routerLink]="['user', 1]">User 1</a> |
+  <a [routerLink]="['user', 2]">User 2</a> |
+  <a routerLink="parent">Parent</a> |
+  <a routerLink="employee">Employee</a> |
+  <a routerLink="observable">Custom Observables</a> |
+  <a routerLink="languages">Language Observable</a> |
+  <a routerLink="angular-form">Angular Form</a> |
+  <a routerLink="reactive-form">Reactive Form</a> |
+  <a routerLink="pipes">Pipes</a> | 
+  <a routerLink="course">Courses</a> | 
+  <a routerLink="directives">Directives</a>
+</div>
+
+<div class="container">
+      <router-outlet></router-outlet>
+  </div>
+</div>

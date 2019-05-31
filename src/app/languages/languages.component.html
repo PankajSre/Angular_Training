@@ -1,0 +1,14 @@
+
+<p style="padding-left:200px;font-weight:bold;font-size: 30px">Languages using Observable</p>
+<hr/>
+<b>Languages </b>
+ <div style="border: 3px;padding-left:150px;text-align: " *ngFor="let language of languages"> {{ language | uppercase }}</div>
+ <hr>
+<div *ngIf='anyErrors' style="border: 3px;padding-left:0px" >
+  <b>Error Status :</b> 
+ {{anyErrors==true? 'Error occured' : 'It All Good'}} 
+  <hr>
+</div>
+<div style="border: 3px;padding-left:0px"> <b>  Status : </b> {{ finished==true ? 'Observer completed ': '' }}</div>
+<hr>
+<button style="margin-top: 2rem;" (click)="start()">Start Emitting</button>

@@ -1,0 +1,22 @@
+<hr>
+<p [ngStyle]="MyStyle()">
+  This is My Attribute Directive
+</p>
+
+<p [ngClass]="applyClasses()">This is My Attribute Directive</p>
+  <hr>
+  <div [ngSwitch] = "value">
+<p *ngSwitchCase="1">Today is Sunday</p>
+<p *ngSwitchCase="2">Today is Monday</p>
+<p *ngSwitchCase="3">Today is Tuesday</p>
+<p *ngSwitchCase="4">Today is Wednesday</p>
+
+</div>
+<div>
+<h2 appRed> This is My Custom Directive Text</h2>
+</div>
+<hr>
+<div>
+<h2 *appNotIf= "true">This is Correct Condition</h2>
+<h2 *appNotIf= "false">This is False Condition</h2>
+</div>
